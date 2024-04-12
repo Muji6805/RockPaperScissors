@@ -2,7 +2,7 @@ import random as R
 
 while True:
     me = input("RockPaperScissors: ")
-    if (me == ("Rock" or "Paper" or "Scissors")):
+    if ((me == "Rock") or (me == "Paper") or (me == "Scissors")):
         break
     else:
         print("please enter again")
